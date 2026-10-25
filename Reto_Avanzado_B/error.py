@@ -1,7 +1,7 @@
 import sqlite3
 
 # 1. Conectar a la base de datos de lenguajes de programación
-conn = sqlite3.connect("programacion.db")
+conn = sqlite3.connect("data/programacion.db")
 
 # 2. Crear el cursor (¡El error 1 solucionado!)
 cursor = conn.cursor()
