@@ -1,7 +1,7 @@
 import sqlite3
 
 # 1. Conectar y crear el archivo de la base de datos 'programacion.db'
-conn = sqlite3.connect("Reto_Avanzado_A/programacion.db")
+conn = sqlite3.connect("data/programacion.db")
 cursor = conn.cursor()
 
 # 2. Crear la tabla con columnas estructuradas y uniformes
