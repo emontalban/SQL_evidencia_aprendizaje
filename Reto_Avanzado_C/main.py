@@ -61,3 +61,15 @@ df = pd.DataFrame(
 
 print("\n--- DataFrame de lenguajes ---")
 print(df.to_string(index=False))
+
+
+# Convertimos el DataFrame en una tabla con bordes.
+tabla = df.to_markdown(index=False, tablefmt="grid")
+
+# La primera línea nos permite conocer el ancho de la tabla.
+ancho = len(tabla.splitlines()[0])
+
+# Centramos el título utilizando ese ancho.
+print()
+print("LENGUAJES DE PROGRAMACIÓN".center(ancho))
+print(tabla)
