@@ -1,6 +1,6 @@
 import sqlite3
 
-conn = sqlite3.connect("data/escuela.db")
+conn = sqlite3.connect("Reto_3/escuela.db")
 cursor = conn.cursor()
 
 # Consultar todos los estudiantes

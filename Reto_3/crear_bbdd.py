@@ -1,7 +1,7 @@
 import sqlite3
 
 # 1. Conectar y crear la base de datos 'escuela.db'
-conn = sqlite3.connect("data/escuela.db")
+conn = sqlite3.connect("Reto_3/escuela.db")
 cursor = conn.cursor()
 
 # 2. Crear las tablas principales
