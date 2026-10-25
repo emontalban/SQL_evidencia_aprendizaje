@@ -103,18 +103,3 @@ Muestra el DataFrame en la terminal.
 
 Cierra la conexión con SQLite cuando hayas terminado
 de recuperar los datos.
-
-## Preguntas de reflexión
-
-1. ¿Qué parte del programa utiliza SQL?
-2. ¿Qué devuelve `fetchall()`?
-3. ¿Qué parte del análisis realiza Python?
-4. ¿Qué es un DataFrame y cómo organiza los datos?
-5. ¿Por qué no necesitamos insertar otra vez los registros?
-
-## Reflexión final
-
-Completa con tus propias palabras:
-
-«Ahora entiendo que SQL y Python pueden trabajar juntos
-porque…»

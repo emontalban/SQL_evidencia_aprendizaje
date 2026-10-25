@@ -38,7 +38,6 @@ Los siguientes comandos se ejecutan desde esta carpeta.
 ```powershell
 python -m venv .venv
 ```
-
 Este comando crea la carpeta `.venv`, donde se guardarán
 el entorno virtual y sus paquetes.
 
@@ -58,6 +57,11 @@ de la terminal.
 En VS Code, abre la paleta de comandos, busca
 «Python: Select Interpreter» y selecciona el intérprete
 de la carpeta `.venv` de este reto.
+
+Instalamos las librerias
+```powershell
+python -m pip install pandas
+```
 
 ## 4. Instalar las dependencias
 
