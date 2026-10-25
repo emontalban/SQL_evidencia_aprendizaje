@@ -28,7 +28,7 @@ Abre la carpeta principal del repositorio en VS Code.
 En la terminal de PowerShell, entra en la carpeta del reto:
 
 ```powershell
-cd reto-avanzado-c
+cd Reto-Avanzado_C
 ```
 
 Los siguientes comandos se ejecutan desde esta carpeta.
@@ -96,7 +96,7 @@ En las siguientes sesiones, entra en la carpeta del reto
 y activa el entorno:
 
 ```powershell
-cd reto-avanzado-c
+cd Reto_Avanzado_C
 .\.venv\Scripts\Activate.ps1
 ```
 
